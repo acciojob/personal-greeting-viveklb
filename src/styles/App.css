@@ -1,1 +1,55 @@
+.greeting-app {
+	min-height: 100vh;
+	display: grid;
+	place-items: center;
+	padding: 24px;
+	background: #f4f6f3;
+	color: #18352f;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+.greeting-panel {
+	width: min(100%, 420px);
+	padding: 36px;
+	border: 1px solid #d6dfd7;
+	border-radius: 8px;
+	background: #fff;
+	box-shadow: 0 16px 40px rgb(24 53 47 / 8%);
+}
+
+.greeting-label {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.greeting-input {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 12px 14px;
+	border: 1px solid #aebeb3;
+	border-radius: 4px;
+	background: #fbfcfa;
+	color: inherit;
+	font: 16px Arial, sans-serif;
+}
+
+.greeting-input:focus {
+	border-color: #26705d;
+	outline: 3px solid rgb(38 112 93 / 18%);
+}
+
+.greeting-message {
+	margin: 24px 0 0;
+	color: #26705d;
+	font-size: 28px;
+	font-weight: 700;
+}
+
+@media (max-width: 480px) {
+	.greeting-panel {
+		padding: 28px 22px;
+	}
+}
 
